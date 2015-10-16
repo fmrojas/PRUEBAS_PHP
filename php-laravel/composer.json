@@ -1,0 +1,20 @@
+{
+    "name": "fmrojas/php-laravel",
+    "description": "Proyecto Proyecto de PHP con Laravel para SENASOFT Santander 2015",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabián Mauricio Rojas Giraldo",
+            "email": "ingfab@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^5.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "SenasoftPHP\\": "src/"
+        }
+    }
+}
