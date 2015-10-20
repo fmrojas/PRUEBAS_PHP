@@ -1,24 +1,22 @@
 <?php
-namespace SenasoftPHP;
+namespace senasoftPHP;
 class Post{
+private $coment;
+private $title;
+private $author;
 
-	private $author;
-	private $title;
-	private $body;
-	
-	public function __construct(Author $author, $title, $body){
-
-		$this->author = $author;
-		$this->title = $title;
-		$this->body = $body;
-
+	public function __construct(Author $author, $title, $coment){
+		$this->coment=$coment;
+		$this->title=$title;
+		$this->author=$author;
 	}
 
-	public function getBody(){
-		return $this->body;
+	public function getPost(){
+		return $this->coment;
 	}
-
-	public function getAuthor(){
-		return 'By ' . $this->author->getFirstName();
+	public function getAutor(){
+		return 'By '.$this->author->getFirstName();
 	}
 }
+
+?>
