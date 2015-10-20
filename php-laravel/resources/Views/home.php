@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- <link rel="stylesheet" type="text/css" href="resources/css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
     <title>Hola PHP Laravel </title>
-   <style type="text/css">
+   <!--<style type="text/css">
    .nav-bar{
       background-color: #D24836;
       height: 40px;
@@ -79,7 +79,7 @@
       text-decoration: none;
       margin: 6px;
     }
-   </style>
+   </style>-->
   </head>
   <body>
     <header>
